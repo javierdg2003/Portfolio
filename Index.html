@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <title>Javier Díez | Portfolio</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="css/mobile.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    <script src="https://kit.fontawesome.com/713945395b.js" crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+    <header class="toolbar">
+        <button class="toolbar-menu">
+          <img class="hamburger-icon" src="./assets/hamburger-menu.svg" alt="Hamburger menu icon"/>
+        </button>
+      </div>
+    </header>
+
+      <nav class="mobile-nav hidden">
+       <button class="btn-close">&times;</button>
+        <ul class="link">
+      <li >
+        <a href="#intro-container">Hola</a>
+      </li>
+      <li>
+        <a href="#projects-section">Portfolio</a>
+      </li>
+      <li>
+        <a href="#about-section">Sobre Mi</a>
+      </li>
+      <li>
+        <a href="#form-section">Contáctame</a>
+      </li>
+      </nav>
+
+  <header class="desk-header">
+    <nav class="header-menu">
+      <ul class="nav-links">
+        <li>
+          <a class="nav-link" href="#intro-container">Hola</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#projects-section">Proyectos</a>
+        </li>
+        <li>
+          <a class="nav-link"href="#about-section">Sobre Mi</a>
+        </li>
+        <li>
+          <a class="nav-link"href="#form-section">Contáctame</a>
+        </li>
+    </nav>
+  </header>
+  
+
+    <section class="introduction">
+      <div class="intro-container" id="intro-container">
+        <h1 class="full-name">
+          Javier Díez
+        </h1>
+        <p class="description">
+        Hola, soy Javier Díez, estudiante de Desarrollo de aplicaciones web.
+        finalicé el grado medio de sistemas microinformáticos y redes.
+      </p>
+      <button class="btn-collaboration">
+        Iniciar Colaboración
+      </button>
+    </div>
+    <div class="background-intro-pic">
+      <img class="background-picture" src="assets/image_geometry_2.png" alt="Picture Mobile Decoration">
+    <div class="desk-background-container">
+      </div>
+    </div>
+    </section>
+  
+¡   <section class="projects-section" id="projects-section">
+
+     <div class="projects-cards">
+  
+       </div>
+   </section>
+ <div class="modal-container" id="myMOdal">
+</div>
+<div class="overlay"></div>
+
+    <section class="about-me-section" id="about-section">
+      <div class="about-me-info">
+        <h4 class="about-title">Sobre Mi</h4>
+        <p class="about-resume">Soy estudiante, pero tengo conocimientos de desarrollo de páginas web, si estas interesado, contáctame </p>
+        <button class="get-my-cv-btn">
+          consigue mi CV
+          <img class="get-my-cv-icon" src="assets/Group 61.png" alt="icon">
+        </button>
+      </div>
+      <div class="cards">
+      <div class="languages card">
+        <h5 class="card-title">Languages</h5>
+        <ul class="card-list">
+        <li>JavaScript</li>
+        <li>Java</li>
+        <li>HTML</li>
+        <li>CSS</li>
+      </ul>
+      </div>
+      <div class="frameworks card">
+        <h5 class="card-title">Frameworks</h5>
+        <ul class="list">
+        <li>Bootstrap</li>
+        <li>Ruby on rails</li>
+        <li>Rspec</li>
+        <li>Capibara </li>
+        <li>Selenium</li>
+      </ul>
+      </div>
+      <div class="skills card">
+        <h5 class="card-title">Skills</h5>
+        <ul class="card-list">
+        <li>Codekit</li>
+        <li>Codepen</li>
+        <li>Github</li>
+        <li>GitLAb</li>
+        <li>Terminal</li>
+      </ul>
+      </div>
+    </div>
+    </section>
+
+
+    <section class="form-section" id="form-section">
+      <div class="form-header">
+        <h1 class="form-title">Contáctame</h1>
+        <p class="form-description">Contáctame para poder hablarde un proyecto juntos.</p>
+      </div>
+      <form action="https://formspree.io/f/mvoyvvge" method="POST" >
+          <div class="form-fields">
+          <div class="name-field">
+          <label for="name" class="label">Nombre</label>
+            <input
+            id="name"
+            name="name"
+            type="text" 
+            placeholder="Introduce tu nombre" 
+            maxlength="30" required>
+          </div>
+      
+        <div class="email-field">
+          <p class="error-message">*Email Invalido</p>
+          <label for="email" class="label">Email</label>
+          <input id="email" name="email" type="email" placeholder="Introduce tu Email" required>
+        </div>
+        <div class="form-message">
+          <label for="textarea" class="label">Mensaje</label>
+          <textarea id="textarea" name="message" type="text" placeholder="Introduce aquí tu mensaje..." maxlength="500" required></textarea>
+        </div>
+      </div>
+        <button class="btn-collaboration btn-submit">Iniciar Colaboración</button>
+      </form>
+    </section>
+    <footer id="footer">
+      <div class="get-my-resume">
+        <p class="get-my-resume-text">Consigue mi resumen</p>
+        <p class="get-my-cv-text">Consigue mi CV</p>
+        <img class="get-my-resume-image" src="./assets/Union (2).png" alt="icon">
+      </div>
+      <ul class="social-media-logos">
+        <li>
+          <a href="#">
+          <img class="logo" src="./assets/ic_stackoverflow.png" alt="logo stackoverflow">
+        </a>
+        </li>
+        <li>
+          <a href="#">
+          <img class="logo" src="./assets/Vector (1).png" alt="logo github">
+        </a>
+        </li>
+        <li>
+          <a href="#">
+          <img class="logo" src="./assets/Vector (2).png" alt="logo twitter">
+        </a>
+        </li>
+        <li>
+          <a href="#">
+            <img class="logo" src="./assets/Vector (3).png" alt="logo LinkedIn">
+          </a>
+        </li>
+        <li>
+          <a href="#">
+          <img class="logo" src="./assets/Vector (4).png" alt="logo Medium">
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img class="logo" src="./assets/Vector (5).png" alt="lodo right">
+          </a>
+        </li>
+      </ul>
+    </footer>
+    <script src="main.js"></script>
+  </body>
+</html>
